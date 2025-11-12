@@ -45,8 +45,8 @@
     ],
     'assets': {
         'point_of_sale._assets_pos': [
-            'custom_receipts_and_last_receipt_for_pos/static/src/js/receipt_template.js',
-            'custom_receipts_and_last_receipt_for_pos/static/src/xml/order_receipt.xml',
+            'pos_custom_receipt_template/static/src/js/receipt_template.js',
+            'pos_custom_receipt_template/static/src/xml/order_receipt.xml',
         ],
     },
     'installable': True,
