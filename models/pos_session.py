@@ -21,7 +21,7 @@ class PosSession(models.Model):
         """Function that returns the product field pos Receipt"""
         return {
             'search_params': {
-                'fields': ['design_receipt', 'name'],
+                'fields': ['template_receipt', 'name'],
             },
         }
 

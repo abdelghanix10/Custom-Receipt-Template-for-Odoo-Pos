@@ -11,5 +11,5 @@ class PosReceipt(models.Model):
     _description = 'POS Receipts'
 
     name = fields.Char(string='Name', help='Name of the pos receipt')
-    design_receipt = fields.Text(string='Receipt XML',
+    template_receipt = fields.Text(string='Receipt XML',
                                  help='Add your customised receipts for pos')

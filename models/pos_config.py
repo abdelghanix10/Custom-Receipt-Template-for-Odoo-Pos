@@ -8,12 +8,12 @@ class PosConfig(models.Model):
     """
     _inherit = 'pos.config'
 
-    receipt_design_id = fields.Many2one('pos.receipt', string='Receipt Design',
-                                     help='Choose any receipt design')
-    design_receipt = fields.Text(related='receipt_design_id.design_receipt',
+    receipt_template_id = fields.Many2one('pos.receipt', string='Receipt Template',
+                                     help='Choose any receipt template')
+    template_receipt = fields.Text(related='receipt_template_id.template_receipt',
                                  string='Receipt XML')
     logo = fields.Binary(related='company_id.logo', string='Logo',
                          readonly=False)
     is_custom_receipt = fields.Boolean(string='Is Custom Receipt',
-                                       help='Indicates the receipt  design is '
+                                       help='Indicates the receipt  template is '
                                             'custom or not')

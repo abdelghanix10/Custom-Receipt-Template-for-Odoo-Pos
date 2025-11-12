@@ -11,7 +11,7 @@
 
         Key Features:
         -------------
-        * **Multiple Receipt Templates**: Choose from pre-designed receipt templates
+        * **Multiple Receipt Templates**: Choose from pre-templateed receipt templates
         * **Custom Receipt Layouts**: Personalize receipt appearance and branding
         * **Easy Configuration**: Simple setup through POS configuration
         * **Seamless Integration**: Works with existing POS workflow

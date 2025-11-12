@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <!-- Modern receipt design with enhanced styling -->
-    <record id="pos_receipt_design3" model="pos.receipt">
-        <field name="name">Design 3</field>
-        <field name="design_receipt"><![CDATA[
+    <!-- Modern receipt template with enhanced styling -->
+    <record id="pos_receipt_template3" model="pos.receipt">
+        <field name="name">Template 3</field>
+        <field name="template_receipt"><![CDATA[
 
         <div class="pos-receipt">
             <!-- Header Section with Logo and Company Info -->
